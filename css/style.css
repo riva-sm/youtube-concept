@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -49,6 +50,7 @@ body {
   padding: 12px 23px;
   font-size: 16px;
   line-height: 20px;
+  width: 100%;
 }
 .button-search {
   padding: 0;
@@ -85,4 +87,54 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+  padding-left: 32px;
+}
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style-type: none;
+}
+.nav-link {
+  color: #898989;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin-bottom: 28px;
+
+  color: #898989;
+}
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
